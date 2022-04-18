@@ -1,7 +1,7 @@
 {
   "name": "center-around",
-  "version": "1.0.0",
-  "description": "Centers an array of numbers around a given point, removing redundant entries",
+  "version": "1.0.1",
+  "description": "Center an array of numbers around a given point, removing redundant entries",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
