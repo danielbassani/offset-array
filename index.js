@@ -1,4 +1,4 @@
-export function center(arr, num) {
+exports.center = function (arr, num) {
     let res = [];
     if (typeof arr !== 'object' || arr === [] || arr[0] === undefined || typeof num != 'number') {
         return res;
