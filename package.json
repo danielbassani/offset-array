@@ -1,6 +1,6 @@
 {
   "name": "center-around",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Center an array of numbers around a given point, removing redundant entries",
   "main": "index.js",
   "scripts": {

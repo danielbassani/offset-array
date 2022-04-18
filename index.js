@@ -5,7 +5,7 @@ exports.center = function (arr, centerNum) {
     } else {
         for (let i = 0; i < arr.length; i++) {
             if (typeof arr[i] === 'number') {
-                res.push(arr[i] - centerNum);
+                res.push(Math.abs(arr[i] - centerNum));
             }
         }
     }
