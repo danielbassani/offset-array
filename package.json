@@ -1,11 +1,12 @@
 {
-  "name": "center-around",
+  "name": "offset-array",
   "version": "1.0.0",
-  "description": "Center an array of numbers around a given point, removing redundant entries",
+  "description": "Calculates the offset for each number from a given value or the mean. Will remove non-numeric data for you and modify calculations accordingly.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "danielbassani",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": ["array", "numbers", "offset", "mean", "average", "normalize"]
 }
