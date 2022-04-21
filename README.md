@@ -5,7 +5,6 @@ Will remove non-numeric types from the provided list.
 Installation:
 ```
     npm i offset-array
-
 ```
 
 Methods:
@@ -30,7 +29,7 @@ Usage:
     console.log(result); // mean calculated as 7, result is [ '+19', '-21', '+8', '-1', '+12', '-17' ]
 ```
 
-*Note About Mean Calculation*
+**Note About Mean Calculation**
 If the array passed is all numeric (ie. [1, 2, 3, 4]) the mean is calculated as expected. However if the array passed
 contains non-numeric and numeric data (ie. [1, 2, ..someObj, 3, 4]) the mean is calculated based off *NUMERIC* data only.
 
