@@ -2,11 +2,11 @@ exports.getOffsets = function (arr, centerNum = 0) {
     return helper(arr, centerNum);
 }
 
-getOffsetsString = function (arr, centerNum = 0) {
+exports.getOffsetsString = function (arr, centerNum = 0) {
    return convToString(helper(arr, centerNum));
 }
 
-getOffsetFromMean = function (arr) {
+exports.getOffsetFromMean = function (arr) {
     const avg = parseFloat(mean(arr));
     return convToString(helper(arr, avg));
 }
@@ -29,10 +29,8 @@ helper = function (arr, centerNum = 0) {
 mean = function (arr) {
     let lenTracker = 0;
     arr = arr.map(Number);
-    console.log(arr)
     return (arr.reduce((p, c) => {
         if (isNaN(c)) {
-            console.log('here')
             return p;
         } else {
             lenTracker++;
@@ -49,8 +47,3 @@ convToString = function (res) {
 
     return res;
 }
-
-function test() {
-    console.log(getOffsetFromMean([1, 2, 3, 4]));
-}
-test()
